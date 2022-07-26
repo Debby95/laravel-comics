@@ -3,7 +3,7 @@
 $navLinks = [
     [
         'name' => 'CHARACTERS',
-        'href'=> '/header',
+        'href'=> '/home',
     ],
     [
         'name' => 'COMICS',
