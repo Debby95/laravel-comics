@@ -48,7 +48,7 @@ $navLinks = [
 
 
 <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
+    <div class="container">
 
         <a class="navbar-brand" href="#">
             <img src="{{ asset('img/dc-logo.png') }}" 
@@ -71,6 +71,8 @@ $navLinks = [
         </div>
     </div>
 </nav>
+
+
 
 
 

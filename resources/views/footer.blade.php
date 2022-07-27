@@ -90,7 +90,7 @@ $ShopLink = [
 @endphp
 
 <footer>
-    <div class="container">
+    <div class="container py-3">
         <div class="row mb-5">
             <div class="col col-lg-2">
                 <h5>DC COMICS</h5>
@@ -128,16 +128,17 @@ $ShopLink = [
         </div>
         <div>All Site Content TM and 2020 DC Entertainment, unless otherwise noted here. All rights reserved.</div>
         <div>Cookie Settings</div>
-    </div>
+
+        
 </footer>
 
 <style>
     footer {
         background-image: url("img/footer-bg.jpg");
         color: white;
-        padding: 10px;
         height: 500px;
-        background-repeat: round;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     ul {
@@ -149,6 +150,10 @@ $ShopLink = [
         text-align: start;
     }
 
+    h5 {
+        margin-left: 30px;
+    }
+
     .img-footer {
         width: 400px;
     }
@@ -158,5 +163,4 @@ $ShopLink = [
         top: 300px;
         right: 650px;
     }
-
 </style>
